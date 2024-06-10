@@ -5,6 +5,9 @@ pipeline {
     DOCKERIMAGE = "pipeline-hello-world"
     HOME = "."
   }
+  
+  stages {
+    
     stage ('Build') {
       steps {
         script {
